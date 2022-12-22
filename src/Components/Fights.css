@@ -1,0 +1,11 @@
+.goku-san{
+    height: auto;
+    width:100%;
+    border-radius: 10px;
+}
+.detail-wrapper{
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+}

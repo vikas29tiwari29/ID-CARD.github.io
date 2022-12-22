@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    border-radius:15px 15px 0px 0px ;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.goku-pic{
+    height:200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius:15px 15px 0px 0px ;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    min-width: 200px;
+    flex-wrap: wrap;
+    margin:5px;
+}
+p{
+    font-size: 0.6rem;
+}
+.about{
+    margin: 10px;
+}
+.ideal{
+    margin: 10px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+.fights{
+    transition: background-color;
+}
+.fights:hover{
+    color: grey;
+    transition-duration: 3s;
+}
+.fight:hover{
+    color: gray;
+}
